@@ -64,29 +64,117 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         calendar: {
             label: 'Календарь',
-            description: 'Тематические календари, посвящённые знаменательным датам и истории отрасли',
+            description: 'Тематические календари, посвящённые знаменательным датам и истории отрасли за 2026 год',
             items: [
                 {
-                    title: 'Календарь «Год защитника Отечества»',
-                    author: 'Козлов Дмитрий Игоревич',
-                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
-                    preview: 'images/Materials/calendar-1.jpg',
+                    title: '«Это - ТГПК»',
+                    author: 'Савельева Алина Витальевна',
+                    school: 'ОГБПОУ «Томский государственный педагогический колледж»',
+                    preview: '2025/images/calendar/prevue/tgpkPREW2026.png',
                     type: 'image',
-                    src: 'images/Materials/calendar-1-full.jpg'
+                    src: '2025/images/calendar/fullImg/calendarTGPK2026.png',
                 },
                 {
-                    title: 'Календарь «Традиции моего колледжа»',
-                    author: 'Миронова Екатерина Павловна',
-                    school: 'ОГБПОУ «Томский строительный колледж»',
-                    preview: 'images/Materials/calendar-2.jpg',
+                    title: '«Прошлое - это...»',
+                    author: 'Студенческий совет «КСПК»',
+                    school: 'ОГБПОУ «Колпашевский социально-промышленный колледж»',
+                    preview: '2025/images/calendar/prevue/kspk2PREW2026.png',
                     type: 'image',
-                    src: 'images/Materials/calendar-2-full.jpg'
+                    src: '2025/images/calendar/fullImg/calendar2KSPK2026.png'
+                },
+                {
+                    title: '«История ТМТТ»',
+                    author: 'Вакарчук, Бардакова',
+                    school: 'ОГБПОУ «Томский механико-технологический техникум»',
+                    preview: '2025/images/calendar/prevue/tmttPREW2026.png',
+                    type: 'image',
+                    src: '2025/images/calendar/fullImg/calendarTMTT2026.png'
+                },
+                {
+                    title: '«Это - ТТВТС!»',
+                    author: 'Шемерянкин Иван Сергеевич',
+                    school: 'ОГБПОУ «Томский техникум водного транспорта и судоходства»',
+                    preview: '2025/images/calendar/prevue/ttvtsPREW2026.png',
+                    type: 'image',
+                    src: '2025/images/calendar/fullImg/calendarTTVTS2026.png',
+                },
+                {
+                    title: '«Так это ТАК»',
+                    author: 'Селезнева',
+                    school: 'ОГБПОУ «Томский аграрный колледж»',
+                    preview: '2025/images/calendar/prevue/takPREW2026.png',
+                    type: 'image',
+                    src: '2025/images/calendar/fullImg/calendarTAK2026.png'
+                },
+                {
+                    title: '«Помним прошлое, гордимся настоящим»',
+                    author: 'Кицман Евгений Александрович, Добрынский Владислав Максимович',
+                    school: 'Парабельский филиал ОГБПОУ «Томский политехнический техникум»',
+                    preview: '2025/images/calendar/prevue/pfTPTPREW2026.png',
+                    type: 'image',
+                    src: '2025/images/calendar/fullImg/calendarPFtpt2026.png'
+                },
+                {
+                    title: '«ШТИТ»',
+                    author: 'Козлов Артём',
+                    school: 'ОГБПОУ «Шегарский техникум индустриальных технологий»',
+                    preview: '2025/images/calendar/prevue/shtitPREW2026.png',
+                    type: 'image',
+                    src: '2025/images/calendar/fullImg/calendarSHTIT2026.png',
+                },
+                {
+                    title: '«ТПТ 2026»',
+                    author: 'Локтионова',
+                    school: 'ОГБПОУ «Томский политехнический техникум»',
+                    preview: '2025/images/calendar/prevue/tptPREW2026.png',
+                    type: 'image',
+                    src: '2025/images/calendar/fullImg/calendarTPT2026.png'
+                },
+                {
+                    title: '«История ТПТ»',
+                    author: 'Обеднин Александр Сергеевич',
+                    school: 'ОГБПОУ «Томский политехнический техникум»',
+                    preview: '2025/images/calendar/prevue/tpt2PREW2026.png',
+                    type: 'image',
+                    src: '2025/images/calendar/fullImg/calendar2TPT2026.png'
+                },
+                {
+                    title: '«Это - ТЛТ!»',
+                    author: 'Чехлова',
+                    school: 'ОГБПОУ «Томский лесотехнический техникум»',
+                    preview: '2025/images/calendar/prevue/tltPREW2026.png',
+                    type: 'image',
+                    src: '2025/images/calendar/fullImg/calendarTLT2026.png',
+                },
+                {
+                    title: '«КСПК»',
+                    author: 'Каличкина Ангелина',
+                    school: 'ОГБПОУ «Колпашевский социально-промышленный колледж»',
+                    preview: '2025/images/calendar/prevue/kspk2PREW2026.png',
+                    type: 'image',
+                    src: '2025/images/calendar/fullImg/calendar2KSPK2026.png'
+                },
+                {
+                    title: '«MTOT»',
+                    author: 'Стрельникова, Решетников',
+                    school: 'ОГБПОУ «Молчановский техникум отраслевых технологий»',
+                    preview: '2025/images/calendar/prevue/mtotPREW2026.png',
+                    type: 'image',
+                    src: '2025/images/calendar/fullImg/calendarMTOT2026.png'
+                },
+                {
+                    title: '«История ТБМК»',
+                    author: 'Костенко А.И.',
+                    school: 'ОГБПОУ «Томский базовый медицинский колледж»',
+                    preview: '2025/images/calendar/prevue/tbmkPREW2026.png',
+                    type: 'image',
+                    src: '2025/images/calendar/fullImg/calendarTBMK2026.png'
                 }
             ]
         },
         poster: {
             label: 'Плакат',
-            description: 'Авторские плакаты о великих свершениях и людях труда',
+            description: 'Авторские плакаты о великих свершениях и людях труда за 2026 год',
             items: [
                 {
                     title: '«Труженики тыла»',
@@ -116,7 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         museum: {
             label: 'Виртуальный музей',
-            description: 'Виртуальные экспозиции, сохраняющие историю учебных заведений и их выпускников',
+            description: 'Виртуальные экспозиции, сохраняющие историю учебных заведений и их выпускников за 2026 год',
             items: [
                 {
                     title: 'Виртуальный музей «Кабинет труда»',
@@ -138,7 +226,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         infographic: {
             label: 'Инфографика',
-            description: 'Инфографика о событиях, цифрах и фактах истории профессионального образования',
+            description: 'Инфографика о событиях, цифрах и фактах истории профессионального образования за 2026 год',
             items: [
                 {
                     title: '«Путь от ремесла к профессии»',
@@ -160,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         excursion: {
             label: 'Видеоэкскурсия',
-            description: 'Видеоэкскурсии по памятным местам Томска и Томской области',
+            description: 'Видеоэкскурсии по памятным местам Томска и Томской области за 2026 год',
             items: [
                 {
                     title: '«Улица, где начиналась профессия»',
@@ -214,14 +302,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     title: '«Вторая серия интервью о чемпионате «Профессионалы»',
                     author: 'Филатова Олеся',
-                    school: 'ОГБПОУ "Томский государственный педагогический колледж"',
+                    school: 'ОГБПОУ «Томский государственный педагогический колледж»',
                     preview: 'images/videoImg/TGPKPREW.png',
                     type: 'video',
                     src: 'https://vk.ru/video_ext.php?oid=-64194219&id=456239432&hash=466dd9a4b8248ef4'
                 },
                 {
                     title: '«Истоки ТЛТ»',
-                    author: 'Студенческий совет ОГБПОУ "Томский лесотехнический техникум"',
+                    author: 'Студенческий совет ОГБПОУ «Томский лесотехнический техникум»',
                     school: 'ОГБПОУ "Томский лесотехнический техникум"',
                     preview: 'images/videoImg/TLTPREW.png',
                     type: 'video',
@@ -230,7 +318,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     title: '«История ТПТ»',
                     author: 'Владислав Терехин и Милица Лебедева',
-                    school: 'ОГБПОУ "Томский политехнический техникум"',
+                    school: 'ОГБПОУ «Томский политехнический техникум»',
                     preview: 'images/videoImg/tptPREW2025.png',
                     type: 'video',
                     src: 'https://vk.ru/video_ext.php?oid=-77287198&id=456239320&hash=47c9e9b71c7368bb'
@@ -240,7 +328,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         calendar: {
             label: 'Календарь',
-            description: 'Тематические календари, посвящённые знаменательным датам и истории отрасли',
+            description: 'Тематические календари, посвящённые знаменательным датам и истории отрасли за 2025 год',
             items: [
                 {
                     title: '«Сделай шаг в мир профессий КИПТСУ»',
@@ -270,7 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         poster: {
             label: 'Плакат',
-            description: 'Авторские плакаты о великих свершениях и людях труда',
+            description: 'Авторские плакаты о великих свершениях и людях труда за 2025 год',
             items: [
                 {
                     title: '«Труженики тыла»',
@@ -300,7 +388,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         museum: {
             label: 'Виртуальный музей',
-            description: 'Виртуальные экспозиции, сохраняющие историю учебных заведений и их выпускников',
+            description: 'Виртуальные экспозиции, сохраняющие историю учебных заведений и их выпускников за 2025 год',
             items: [
                 {
                     title: 'Виртуальный музей «Кабинет труда»',
@@ -322,7 +410,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         infographic: {
             label: 'Инфографика',
-            description: 'Инфографика о событиях, цифрах и фактах истории профессионального образования',
+            description: 'Инфографика о событиях, цифрах и фактах истории профессионального образования за 2025 год',
             items: [
                 {
                     title: '«Путь от ремесла к профессии»',
@@ -344,7 +432,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         excursion: {
             label: 'Видеоэкскурсия',
-            description: 'Видеоэкскурсии по памятным местам Томска и Томской области',
+            description: 'Видеоэкскурсии по памятным местам Томска и Томской области за 2025 год',
             items: [
                 {
                     title: '«Улица, где начиналась профессия»',
