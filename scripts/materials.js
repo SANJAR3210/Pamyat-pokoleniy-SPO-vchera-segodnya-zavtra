@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
        КОНКУРСНЫЕ РАБОТЫ
        Чтобы добавить работу — допишите объект в список items
        нужной номинации. Чтобы создать страницу другой номинации,
-       скопируйте nomination.html и поменяйте data-nomination
+       скопируйте calendar.html и поменяйте data-nomination
        у <body> на один из ключей: video, calendar, poster,
        museum, infographic, excursion.
        ========================================================= */
@@ -11,9 +11,57 @@ document.addEventListener('DOMContentLoaded', () => {
         video: {
             label: 'Видеоролик',
             description: 'Ролики участников о людях, событиях и традициях профессионального образования Томской области за 2026 год',
-            items: []
+            items: [
+                {
+                    title: '«История ТТВТС и Марии Михайловны Асеевой»',
+                    author: 'Мангазеев Роман Дмитриевич, Грицин Радомир Евгеньевич, Бугрий Илья Александрович',
+                    school: 'ОГБПОУ «Томский техникум водного транспорта и судоходства»',
+                    preview: '2025/images/videoImg/TTSTPREV.png',
+                    type: 'video',
+                    src: 'https://vk.ru/video_ext.php?oid=-104711768&id=456239392&hash=d93a3350c29b89a7'
+                },
+                {
+                    title: '«Мы — ТТВТС. Мы — сила Томского флота!»',
+                    author: 'Михалёва Елизавета',
+                    school: 'ОГБПОУ «Томский техникум водного транспорта и судоходства»',
+                    preview: '2025/images/videoImg/TTSTPREV.png',
+                    type: 'video',
+                    src: 'https://vk.ru/video_ext.php?oid=-104711768&id=456239391&hash=80f9c24ccae39f9a'
+                },
+                {
+                    title: '«27 января»',
+                    author: 'Студенческий совет «ТБМК»',
+                    school: 'ОГБПОУ «Томский базовый медицинский колледж»',
+                    preview: '2025/images/videoImg/tbmkPREW.png',
+                    type: 'video',
+                    src: 'https://vk.ru/video_ext.php?oid=-52683499&id=456239888'
+                },
+                {
+                    title: '«Дина Анатольевна Конюхова»',
+                    author: 'Екатерина Замятина',
+                    school: 'ОГБПОУ «Шегарский техникум индустриальных технологий»',
+                    preview: '2025/images/videoImg/shtitPREW.png',
+                    type: 'video',
+                    src: '//ok.ru/videoembed/11422881811019?nochat=1'
+                },
+                {
+                    title: '«Не смейте забывать учителей»',
+                    author: 'Студенческий совет «ТТЖТ»',
+                    school: 'Филиал СГУПС «Томский техникум железнодорожного транспорта»',
+                    preview: '2025/images/videoImg/ttzhtPREW.png',
+                    type: 'video',
+                    src: 'https://vk.ru/video_ext.php?oid=-174959877&id=456239376&hash=799d257ae72d17ca'
+                },
+                {
+                    title: '«История ТПТ»',
+                    author: 'Студенческий совет «ТПТ»',
+                    school: 'ОГБПОУ «Томский политехнический техникум»',
+                    preview: '2025/images/videoImg/tptPREW2026.png',
+                    type: 'video',
+                    src: 'https://vkvideo.ru/video_ext.php?oid=-77287198&id=456239366&hash=73146127f8bb5d43&hd=4'
+                }
+            ]
         },
-
         calendar: {
             label: 'Календарь',
             description: 'Тематические календари, посвящённые знаменательным датам и истории отрасли',
@@ -143,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     title: '«Развитие водного транспорта»',
                     author: 'Чалина Зарина',
                     school: 'ОГБПОУ «Томский техникум водного транспорта и судоходства»',
-                    preview: 'images/TTSTPREV.png',
+                    preview: 'images/videoImg/TTSTPREV.png',
                     type: 'video',
                     src: 'https://vk.ru/video_ext.php?oid=-225946258&id=456239057'
                 },
@@ -151,15 +199,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     title: '«ТКСТ»',
                     author: 'Силицкая Дарья',
                     school: 'ОГБПОУ «Томский коммунально-строительный техникум»',
-                    preview: 'images/TKSTPNG.png',
+                    preview: 'images/videoImg/TKSTPNG.png',
                     type: 'video',
                     src: 'https://vkvideo.ru/video_ext.php?oid=-207118347&id=456239432&hash=53992663ffa71625&hd=4'
                 },
                 {
                     title: '«Колпашевский мед - в завтра билет»',
                     author: 'Заварницина Светлана',
-                    school: 'Колпашевский филиал ОГБПОУ "Томский базовый медицинский колледж"',
-                    preview: 'images/kp-tbmk.png',
+                    school: 'Колпашевский филиал ОГБПОУ «Томский базовый медицинский колледж»',
+                    preview: 'images/videoImg/kp-tbmk.png',
                     type: 'video',
                     src: 'https://vk.ru/video_ext.php?oid=-178490239&id=456239225&hash=25acfdd7da5b7834'
                 },
@@ -167,9 +215,25 @@ document.addEventListener('DOMContentLoaded', () => {
                     title: '«Вторая серия интервью о чемпионате «Профессионалы»',
                     author: 'Филатова Олеся',
                     school: 'ОГБПОУ "Томский государственный педагогический колледж"',
-                    preview: 'images/TGPKPREW.png',
+                    preview: 'images/videoImg/TGPKPREW.png',
                     type: 'video',
                     src: 'https://vk.ru/video_ext.php?oid=-64194219&id=456239432&hash=466dd9a4b8248ef4'
+                },
+                {
+                    title: '«Истоки ТЛТ»',
+                    author: 'Студенческий совет ОГБПОУ "Томский лесотехнический техникум"',
+                    school: 'ОГБПОУ "Томский лесотехнический техникум"',
+                    preview: 'images/videoImg/TLTPREW.png',
+                    type: 'video',
+                    src: 'https://vkvideo.ru/video_ext.php?oid=-144712319&id=456239514&hash=9d4f92dc8b96c3c7&hd=2'
+                },
+                {
+                    title: '«История ТПТ»',
+                    author: 'Владислав Терехин и Милица Лебедева',
+                    school: 'ОГБПОУ "Томский политехнический техникум"',
+                    preview: 'images/videoImg/tptPREW2025.png',
+                    type: 'video',
+                    src: 'https://vk.ru/video_ext.php?oid=-77287198&id=456239320&hash=47c9e9b71c7368bb'
                 }
             ]
         },
@@ -179,20 +243,28 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Тематические календари, посвящённые знаменательным датам и истории отрасли',
             items: [
                 {
-                    title: 'Календарь «Год защитника Отечества»',
-                    author: 'Козлов Дмитрий Игоревич',
-                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
-                    preview: 'images/Materials/calendar-1.jpg',
+                    title: '«Сделай шаг в мир профессий КИПТСУ»',
+                    author: 'Мадаминова',
+                    school: 'ОГБПОУ «Колледж индустрии питания, торговли и сферы услуг»',
+                    preview: 'images/calendar/prevue/kiptsuMadPrew.jpg',
                     type: 'image',
-                    src: 'images/Materials/calendar-1-full.jpg'
+                    src: 'images/calendar/fullImg/calendarKIPTSU2025.png'
                 },
                 {
-                    title: 'Календарь «Традиции моего колледжа»',
-                    author: 'Миронова Екатерина Павловна',
-                    school: 'ОГБПОУ «Томский строительный колледж»',
-                    preview: 'images/Materials/calendar-2.jpg',
+                    title: '«ТомИнТех»',
+                    author: 'Жидких Ульяна Михайловна, Токарева Полина Денисовна',
+                    school: 'ОГБПОУ «Томский индустриальный техникум»',
+                    preview: 'images/calendar/prevue/TomInTehPrevue.png',
                     type: 'image',
-                    src: 'images/Materials/calendar-2-full.jpg'
+                    src: 'images/calendar/fullImg/calendarTomInTex2025.png'
+                },
+                {
+                    title: '«ТАК»',
+                    author: 'Чемезова, Посадская',
+                    school: 'ОГБПОУ «Томский аграрный колледж»',
+                    preview: 'images/calendar/prevue/takPrevue.png',
+                    type: 'image',
+                    src: 'images/calendar/fullImg/calendarTAK2025.png'
                 }
             ]
         },
@@ -294,7 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    const NOMINATIONS = { '2025': NOMINATIONS_2025, '2026': NOMINATIONS_2026 };
+    const NOMINATIONS = {'2025': NOMINATIONS_2025, '2026': NOMINATIONS_2026};
 
     const CARD_MODS = ['work-card--light', 'work-card--primary', 'work-card--dark'];
 
