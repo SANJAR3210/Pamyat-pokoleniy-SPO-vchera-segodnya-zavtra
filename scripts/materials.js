@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     title: '«Развитие водного транспорта»',
                     author: 'Чалина Зарина',
                     school: 'ОГБПОУ «Томский техникум водного транспорта и судоходства»',
-                    preview: '/2025/images/TTSTPREV.png',
+                    preview: '/images/TTSTPREV.png',
                     type: 'video',
                     src: 'https://vk.ru/video_ext.php?oid=-225946258&id=456239057'
                 },
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     title: '«Колпашевский мед - в завтра билет»',
                     author: 'Заварницина Светлана',
                     school: 'Колпашевский филиал ОГБПОУ "Томский базовый медицинский колледж"',
-                    preview: '/2025/images/kp-tbmk.png',
+                    preview: '/images/kp-tbmk.png',
                     type: 'video',
                     src: 'https://vk.ru/video_ext.php?oid=-178490239&id=456239225&hash=25acfdd7da5b7834'
                 },
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     title: '«Вторая серия интервью о чемпионате «Профессионалы»',
                     author: 'Филатова Олеся',
                     school: 'ОГБПОУ "Томский государственный педагогический колледж"',
-                    preview: '/2025/images/TGPKPREW.png',
+                    preview: '/images/TGPKPREW.png',
                     type: 'video',
                     src: 'https://vk.ru/video_ext.php?oid=-64194219&id=456239432&hash=466dd9a4b8248ef4'
                 }
