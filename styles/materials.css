@@ -1,0 +1,343 @@
+/* =========================================================
+   Страница конкурсных материалов (номинации)
+   Стиль согласован с main.css сайта «Память поколений»
+   ========================================================= */
+
+/* --- Шапка страницы номинации --- */
+.materials-hero {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 40px 20px 0 20px;
+}
+
+.materials-hero__container {
+    width: 100%;
+}
+
+.materials-hero__back {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--color-dark);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    transition: color 0.2s ease;
+}
+
+.materials-hero__back img {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.materials-hero__back:hover {
+    color: #2D7FFF;
+}
+
+.materials-hero__header {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.materials-hero__label {
+    background-color: #F8DE29;
+    color: var(--color-dark);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.materials-hero__description {
+    padding-top: 10px;
+    font-size: 16px;
+    color: var(--color-dark);
+    max-width: 560px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.materials-hero__count {
+    font-size: 15px;
+    color: var(--color-dark);
+    margin: 0 0 30px 0;
+}
+
+/* --- Сетка работ --- */
+.works {
+    max-width: 1240px;
+    margin: 0 auto 60px auto;
+    padding: 0 20px;
+}
+
+.works__container {
+    width: 100%;
+}
+
+.works__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.work-card {
+    border: 1px solid var(--color-dark);
+    border-radius: 30px;
+    box-shadow: 0 5px 0 var(--color-dark);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+    transition: transform 0.2s ease;
+}
+
+.work-card:hover {
+    transform: translateY(-4px);
+}
+
+.work-card--primary {
+    background-color: #2D7FFF;
+
+}
+
+.work-card--dark {
+    background-color: #FB1F39;
+}
+
+.work-card__preview {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-bottom: 1px solid var(--color-dark);
+    background-color: var(--color-light);
+}
+
+.work-card__body {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.work-card__title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: 0;
+    color: var(--color-dark);
+}
+
+.work-card--primary .work-card__title,
+.work-card--dark .work-card__title {
+    color: var(--color-white);
+}
+
+.work-card__author {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--color-dark);
+    margin: 0;
+}
+
+.work-card--primary .work-card__author,
+.work-card--dark .work-card__author {
+    color: var(--color-white);
+}
+
+.work-card__school {
+    font-size: 14px;
+    color: #555;
+    margin: 0 0 10px 0;
+    flex: 1;
+}
+
+.work-card--primary .work-card__school,
+.work-card--dark .work-card__school {
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.work-card__btn {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: var(--color-dark);
+    border-radius: 14px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-white);
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.work-card__btn:hover {
+    background-color: #F8DE29;
+    color: var(--color-dark);
+}
+
+
+/* --- Модальное окно просмотра работы --- */
+.work-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.work-modal--open {
+    display: flex;
+}
+
+.work-modal__overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(25, 26, 35, 0.75);
+}
+
+.work-modal__card {
+    position: relative;
+    background-color: var(--color-white);
+    border: 1px solid var(--color-dark);
+    border-radius: 30px;
+    box-shadow: 0 8px 0 var(--color-dark);
+    padding: 40px;
+    max-width: 860px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    z-index: 201;
+}
+
+.work-modal__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    background-color: var(--color-white);
+}
+
+.work-modal__close:hover {
+    background-color: var(--color-light);
+}
+
+.work-modal__close img {
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+}
+
+.work-modal__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 60px 20px 0;
+    color: var(--color-dark);
+}
+
+.work-modal__media {
+    margin-bottom: 20px;
+}
+
+.work-modal__media iframe,
+.work-modal__media img {
+    width: 100%;
+    border: 1px solid var(--color-dark);
+    border-radius: 20px;
+    display: block;
+    background-color: var(--color-light);
+}
+
+.work-modal__media iframe {
+    aspect-ratio: 16 / 9;
+}
+
+.work-modal__media img {
+    max-height: 60vh;
+    object-fit: contain;
+}
+
+.work-modal__meta p {
+    font-size: 16px;
+    color: var(--color-dark);
+    margin: 0 0 6px 0;
+}
+
+/* --- Responsive --- */
+@media (max-width: 1025px) {
+    .works__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 769px) {
+    .materials-hero__header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .materials-hero__label {
+        white-space: normal;
+        font-size: 28px;
+    }
+
+    .materials-hero__description {
+        padding-top: 0;
+        max-width: 100%;
+    }
+
+    .works__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .work-modal__card {
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .work-modal__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 407px) {
+    .materials-hero__label {
+        font-size: 24px;
+    }
+
+    .work-card__body {
+        padding: 20px;
+    }
+}
+
+/* --- Пустое состояние (работы года ещё нет) --- */
+.works__empty {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 18px;
+    color: var(--color-dark);
+    padding: 60px 20px;
+    border: 1px solid var(--color-dark);
+    border-radius: 30px;
+    box-shadow: 0 5px 0 var(--color-dark);
+    background-color: var(--color-light);
+    margin: 0;
+}

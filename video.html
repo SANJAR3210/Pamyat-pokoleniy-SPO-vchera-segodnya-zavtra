@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Конкурсные работы — Память поколений</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/materials.css">
+</head>
+<body data-nomination="video" data-year="2026">
+
+<header class="header">
+    <div class="header__container">
+        <a href="index.html" class="header__logo">
+            <img src="images/mainBlock/star-icon-header.svg" alt="Память поколений" class="header__logo-img">
+            <span class="header__logo-text">Память поколений</span>
+        </a>
+
+        <button class="header__burger" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="header__nav">
+            <ul class="header__menu">
+                <li><a href="index.html#services" class="header__link">Номинации</a></li>
+                <li><a href="index.html#team" class="header__link">Команда</a></li>
+                <li><a href="index.html#testimonials" class="header__link">Партнёры</a></li>
+                <li><a href="2025/video2.html" class="header__btn">2025</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="materials-hero">
+        <div class="materials-hero__container">
+            <a href="index.html#services" class="materials-hero__back">
+                <img src="images/Testimonials/Arrow-left.svg" alt="Назад к номинациям">
+                <span>Все номинации</span>
+            </a>
+            <div class="materials-hero__header">
+                <h1 class="materials-hero__label" id="nominationLabel">Видеоролик</h1>
+                <p class="materials-hero__description" id="nominationDescription"></p>
+            </div>
+            <p class="materials-hero__count" id="worksCount"></p>
+        </div>
+    </section>
+
+    <section class="works">
+        <div class="works__container">
+            <div class="works__grid" id="worksGrid">
+            </div>
+        </div>
+    </section>
+</main>
+
+<div class="work-modal" id="workModal" aria-hidden="true">
+    <div class="work-modal__overlay" id="workModalOverlay"></div>
+    <div class="work-modal__card">
+        <button class="work-modal__close" id="workModalClose" aria-label="Закрыть">
+            <img src="images/WorkingProcess/plus.svg" alt="">
+        </button>
+        <h3 class="work-modal__title" id="workModalTitle"></h3>
+        <div class="work-modal__media" id="workModalMedia"></div>
+        <div class="work-modal__meta" id="workModalMeta"></div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__top">
+            <a href="index.html" class="header__logo">
+                <img src="images/mainBlock/star-icon-header.svg" alt="Память поколений" class="header__logo-img">
+                <span class="header__logo-text">Память поколений</span>
+            </a>
+            <nav class="footer__nav">
+                <ul class="footer__menu">
+                    <li><a href="index.html" class="footer__link">Главная</a></li>
+                    <li><a href="index.html#services" class="footer__link">Номинации</a></li>
+                    <li><a href="index.html#team" class="footer__link">Команда</a></li>
+                    <li><a href="index.html#testimonials" class="footer__link">Партнёры</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <hr class="footer__line">
+
+        <div class="footer__bottom">
+            <p>© 2026</p>
+        </div>
+    </div>
+</footer>
+
+<script src="scripts/main.js"></script>
+<script src="scripts/year.js"></script>
+<script src="scripts/materials.js"></script>
+
+</body>
+</html>
