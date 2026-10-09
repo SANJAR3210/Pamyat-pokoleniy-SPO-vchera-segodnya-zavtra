@@ -206,66 +206,42 @@ document.addEventListener('DOMContentLoaded', () => {
             label: 'Виртуальный музей',
             description: 'Виртуальные экспозиции, сохраняющие историю учебных заведений и их выпускников за 2026 год',
             items: [
-                {
-                    title: 'Виртуальный музей «Кабинет труда»',
-                    author: 'Захарова Вера Константиновна',
-                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
-                    preview: 'images/Materials/museum-1.jpg',
-                    type: 'link',
-                    src: 'https://example.com/museum-1'
-                },
-                {
-                    title: 'Виртуальная экскурсия «Гордость колледжа»',
-                    author: 'Тихонов Никита Олегович',
-                    school: 'ОГБПОУ «Томский строительный колледж»',
-                    preview: 'images/Materials/museum-2.jpg',
-                    type: 'link',
-                    src: 'https://example.com/museum-2'
-                }
+                // {
+                //     title: 'Виртуальная экскурсия «Гордость колледжа»',
+                //     author: 'Тихонов Никита Олегович',
+                //     school: 'ОГБПОУ «Томский строительный колледж»',
+                //     preview: 'images/Materials/museum-2.jpg',
+                //     type: 'link',
+                //     src: 'https://example.com/museum-2'
+                // }
             ]
         },
         infographic: {
             label: 'Инфографика',
             description: 'Инфографика о событиях, цифрах и фактах истории профессионального образования за 2026 год',
             items: [
-                {
-                    title: '«Путь от ремесла к профессии»',
-                    author: 'Белова Дарья Андреевна',
-                    school: 'ОГБПОУ «Томский экономический колледж»',
-                    preview: 'images/Materials/infographic-1.jpg',
-                    type: 'image',
-                    src: 'images/Materials/infographic-1-full.jpg'
-                },
-                {
-                    title: '«Выпускники — гордость страны»',
-                    author: 'Семёнов Игорь Витальевич',
-                    school: 'ОГБПОУ «Томский транспортный колледж»',
-                    preview: 'images/Materials/infographic-2.jpg',
-                    type: 'image',
-                    src: 'images/Materials/infographic-2-full.jpg'
-                }
+                // {
+                //     title: '«Путь от ремесла к профессии»',
+                //     author: 'Белова Дарья Андреевна',
+                //     school: 'ОГБПОУ «Томский экономический колледж»',
+                //     preview: 'images/Materials/infographic-1.jpg',
+                //     type: 'image',
+                //     src: 'images/Materials/infographic-1-full.jpg'
+                // },
             ]
         },
         excursion: {
             label: 'Видеоэкскурсия',
             description: 'Видеоэкскурсии по памятным местам Томска и Томской области за 2026 год',
             items: [
-                {
-                    title: '«Улица, где начиналась профессия»',
-                    author: 'Фёдорова Ксения Дмитриевна',
-                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
-                    preview: 'images/Materials/excursion-1.jpg',
-                    type: 'video',
-                    src: 'https://www.youtube.com/embed/XXXXXXXXXXX'
-                },
-                {
-                    title: '«Музей мастеров»',
-                    author: 'Орлов Максим Сергеевич',
-                    school: 'ОГБПОУ «Томский промышленно-технологический колледж»',
-                    preview: 'images/Materials/excursion-2.jpg',
-                    type: 'video',
-                    src: 'https://www.youtube.com/embed/XXXXXXXXXXX'
-                }
+                // {
+                //     title: '«Улица, где начиналась профессия»',
+                //     author: 'Фёдорова Ксения Дмитриевна',
+                //     school: 'ОГБПОУ «Томский техникум информационных технологий»',
+                //     preview: 'images/Materials/excursion-1.jpg',
+                //     type: 'video',
+                //     src: 'https://www.youtube.com/embed/XXXXXXXXXXX'
+                // }
             ]
         }
     };
@@ -310,7 +286,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     title: '«Истоки ТЛТ»',
                     author: 'Студенческий совет ОГБПОУ «Томский лесотехнический техникум»',
-                    school: 'ОГБПОУ "Томский лесотехнический техникум"',
+                    school: 'ОГБПОУ «Томский лесотехнический техникум»',
                     preview: 'images/videoImg/TLTPREW.png',
                     type: 'video',
                     src: 'https://vkvideo.ru/video_ext.php?oid=-144712319&id=456239514&hash=9d4f92dc8b96c3c7&hd=2'
@@ -390,22 +366,14 @@ document.addEventListener('DOMContentLoaded', () => {
             label: 'Виртуальный музей',
             description: 'Виртуальные экспозиции, сохраняющие историю учебных заведений и их выпускников за 2025 год',
             items: [
-                {
-                    title: 'Виртуальный музей «Кабинет труда»',
-                    author: 'Захарова Вера Константиновна',
-                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
-                    preview: 'images/Materials/museum-1.jpg',
-                    type: 'link',
-                    src: 'https://example.com/museum-1'
-                },
-                {
-                    title: 'Виртуальная экскурсия «Гордость колледжа»',
-                    author: 'Тихонов Никита Олегович',
-                    school: 'ОГБПОУ «Томский строительный колледж»',
-                    preview: 'images/Materials/museum-2.jpg',
-                    type: 'link',
-                    src: 'https://example.com/museum-2'
-                }
+                // {
+                //     title: 'Виртуальная экскурсия «Гордость колледжа»',
+                //     author: 'Тихонов Никита Олегович',
+                //     school: 'ОГБПОУ «Томский строительный колледж»',
+                //     preview: 'images/Materials/museum-2.jpg',
+                //     type: 'link',
+                //     src: 'https://example.com/museum-2'
+                // }
             ]
         },
         infographic: {
@@ -413,20 +381,60 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Инфографика о событиях, цифрах и фактах истории профессионального образования за 2025 год',
             items: [
                 {
-                    title: '«Путь от ремесла к профессии»',
-                    author: 'Белова Дарья Андреевна',
-                    school: 'ОГБПОУ «Томский экономический колледж»',
-                    preview: 'images/Materials/infographic-1.jpg',
+                    title: '«Александр Филиппович Мусохранов»',
+                    author: 'Таскина М.В',
+                    school: 'ОГАПОУ «Томский Губернаторский колледж культуры и искусств»',
+                    preview: 'images/infographics/TGKKIinfographic2025.jpg',
                     type: 'image',
-                    src: 'images/Materials/infographic-1-full.jpg'
+                    src: 'images/infographics/TGKKIinfographic2025.jpg'
                 },
                 {
-                    title: '«Выпускники — гордость страны»',
-                    author: 'Семёнов Игорь Витальевич',
-                    school: 'ОГБПОУ «Томский транспортный колледж»',
-                    preview: 'images/Materials/infographic-2.jpg',
+                    title: '«Во власти долга»',
+                    author: 'Рябикова',
+                    school: 'ОГБПОУ «Томский политехнический техникум»',
+                    preview: 'images/infographics/TPTinfographic2025.jpg',
                     type: 'image',
-                    src: 'images/Materials/infographic-2-full.jpg'
+                    src: 'images/infographics/TPTinfographic2025.jpg'
+                },
+                {
+                    title: '«Начало ТГПК»',
+                    author: 'Горева Злата',
+                    school: 'ОГБПОУ «Томский государственный педагогический колледж»',
+                    preview: 'images/infographics/TGPKinfographic2025.jpg',
+                    type: 'image',
+                    src: 'images/infographics/TGPKinfographic2025.jpg'
+                },
+                {
+                    title: '«История развития ТТИТ»',
+                    author: 'Власов Никита',
+                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
+                    preview: 'images/infographics/TTITinfographic2025.jpg',
+                    type: 'image',
+                    src: 'images/infographics/TTITinfographic2025.jpg'
+                },
+                {
+                    title: '«Кадры»',
+                    author: 'Каличкина Ангелина Денисовна',
+                    school: 'ОГБПОУ «Колпашевский социально-промышленный колледж»',
+                    preview: 'images/infographics/KSPKinfographic2025.png',
+                    type: 'image',
+                    src: 'images/infographics/KSPKinfographic2025.png'
+                },
+                {
+                    title: '«История развития профессий и специальностей»',
+                    author: 'Рябова В.А',
+                    school: 'ОГБПОУ «Колледж индустрии питания, торговли и сферы услуг»',
+                    preview: 'images/infographics/KIPTSUinfographic2025.png',
+                    type: 'image',
+                    src: 'images/infographics/KIPTSUinfographic2025.png'
+                },
+                {
+                    title: '«История развития ТТИТ»',
+                    author: 'Студенческий совет колпашевского филиала ОГБПОУ «Томский базовый медицинский колледж»',
+                    school: 'Колпашевский филиал ОГБПОУ «Томский базовый медицинский колледж»',
+                    preview: 'images/infographics/kfTBMKinfographic2025.png',
+                    type: 'image',
+                    src: 'images/infographics/kfTBMKinfographic2025.png'
                 }
             ]
         },
@@ -435,20 +443,12 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Видеоэкскурсии по памятным местам Томска и Томской области за 2025 год',
             items: [
                 {
-                    title: '«Улица, где начиналась профессия»',
-                    author: 'Фёдорова Ксения Дмитриевна',
-                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
-                    preview: 'images/Materials/excursion-1.jpg',
+                    title: '«Это наша с тобою земля, это наша с тобой биография...»',
+                    author: 'Григорьев',
+                    school: 'ОГБПОУ «Северский промышленный колледж»',
+                    preview: 'images/excursionPrew2025/excursSPK2025PREW.png',
                     type: 'video',
-                    src: 'https://www.youtube.com/embed/XXXXXXXXXXX'
-                },
-                {
-                    title: '«Музей мастеров»',
-                    author: 'Орлов Максим Сергеевич',
-                    school: 'ОГБПОУ «Томский промышленно-технологический колледж»',
-                    preview: 'images/Materials/excursion-2.jpg',
-                    type: 'video',
-                    src: 'https://www.youtube.com/embed/XXXXXXXXXXX'
+                    src: 'https://vkvideo.ru/video_ext.php?oid=-73151794&id=456239331&hash=a2ab7813b9122c79'
                 }
             ]
         }
