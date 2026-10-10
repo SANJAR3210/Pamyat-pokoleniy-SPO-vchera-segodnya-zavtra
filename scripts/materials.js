@@ -170,6 +170,15 @@ document.addEventListener('DOMContentLoaded', () => {
             items: [
                 {
                     title: '«ТТИТ»',
+                    author: 'Ахмедов Санджар Наимжонович',
+                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
+                    preview: 'images/posterImg2026/graphic/posterTTIT2026graphic.jpg',
+                    type: 'image',
+                    src: 'images/posterImg2026/graphic/posterTTIT2026graphic.jpg',
+                    category: 'graphic'
+                },
+                {
+                    title: '«ТТИТ»',
                     author: 'Стремякова Полина Викторовна, Захарушкина Татьяна Валерьевна, Подлипская Ксения Александровна',
                     school: 'ОГБПОУ «Томский техникум информационных технологий»',
                     preview: 'images/posterImg2026/color/posterTTIT2026color.png',
@@ -347,15 +356,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     type: 'image',
                     src: 'images/posterImg2026/color/posterKTAB2026color.png',
                     category: 'color'
-                }
-                ,
+                },
                 {
-                    title: '«ТТИТ»',
-                    author: 'Ахмедов Санджар Наимжонович',
-                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
-                    preview: 'images/posterImg2026/graphic/posterTTIT2026graphic.jpg',
+                    title: '«ТТЖТ: Путь сквозь поколения»',
+                    author: 'Килинчук Артём',
+                    school: 'Филиал СГУПС «Томский техникум железнодорожного транспорта»',
+                    preview: 'images/posterImg2026/graphic/posterTTZHT2026graphic.jpg',
                     type: 'image',
-                    src: 'images/posterImg2026/graphic/posterTTIT2026graphic.jpg',
+                    src: 'images/posterImg2026/graphic/posterTTZHT2026graphic.jpg',
                     category: 'graphic'
                 }
             ]
@@ -364,14 +372,31 @@ document.addEventListener('DOMContentLoaded', () => {
             label: 'Виртуальный музей',
             description: 'Виртуальные экспозиции, сохраняющие историю учебных заведений и их выпускников за 2026 год',
             items: [
-                // {
-                //     title: 'Виртуальная экскурсия «Гордость колледжа»',
-                //     author: 'Тихонов Никита Олегович',
-                //     school: 'ОГБПОУ «Томский строительный колледж»',
-                //     preview: 'images/Materials/museum-2.jpg',
-                //     type: 'link',
-                //     src: 'https://example.com/museum-2'
-                // }
+                {
+                    title: '«ИСТОРИЯ РАЗВИТИЯ СЕЛЬСКОГО ХОЗЯЙСТВА»',
+                    author: 'Вишнарёв А.Р',
+                    school: 'ОГБПОУ «Кривошеинский агропромышленный техникум»',
+                    preview: 'images/museumPrev2026/muzeyPrewKAPT2026.png',
+                    type: 'link',
+                    src: 'https://vk.ru/club210618353'
+                },
+                {
+                    title: '«Музей 79-й Гвардейской стрелковой дивизии»',
+                    author: 'ТТВТС',
+                    school: 'ОГБПОУ «Томский техникум водного транспорта и судоходства»',
+                    preview: 'images/museumPrev2026/muzeyPrewTTVTS2026.png',
+                    type: 'link',
+                    src: 'https://vk.ru/club216410795'
+                },
+                {
+                    title: '«Музей медицины»',
+                    author: 'ТБМК',
+                    school: 'Колпашевский филиал ОГБПОУ «Томский базовый медицинский колледж»',
+                    preview: 'images/museumPrev2026/muzeyPrewKfTBMK2026.png',
+                    type: 'link',
+                    src: 'https://vk.ru/public205695824'
+                }
+
             ]
         },
         infographic: {
@@ -386,24 +411,103 @@ document.addEventListener('DOMContentLoaded', () => {
                     type: 'image',
                     src: 'images/infographic2026/infographicTTIT2026.jpg'
                 },
+                {
+                    title: '«Летопись становления ТБМК»',
+                    author: 'Золотовская А.М.',
+                    school: 'ОГБПОУ «Томский базовый медицинский колледж»',
+                    preview: 'images/infographic2026/infographicTBMK2026.png',
+                    type: 'image',
+                    src: 'images/infographic2026/infographicTBMK2026.png'
+                },
+                {
+                    title: '«КСПК»',
+                    author: 'Гормолысова Анастасия Алексеевна',
+                    school: 'ОГБПОУ «Колпашевский социально-промышленный колледж»',
+                    preview: 'images/infographic2026/infographicKSPK2026.png',
+                    type: 'image',
+                    src: 'images/infographic2026/infographicKSPK2026.png'
+                },
+                {
+                    title: '«МТОТ»',
+                    author: 'Полоник Мария Александровна',
+                    school: 'ОГБПОУ «Молчановский техникум отраслевых технологий»',
+                    preview: 'images/infographic2026/infographicMTOT2026.png',
+                    type: 'image',
+                    src: 'images/infographic2026/infographicMTOT2026.png'
+                },
+                {
+                    title: '«История техникума в истории страны»',
+                    author: 'Вирфель Сергей',
+                    school: 'Александровский филиал ОГБПОУ «Томский политехнический техникум»',
+                    preview: 'images/infographic2026/infographicAfTPT2026.png',
+                    type: 'image',
+                    src: 'images/infographic2026/infographicAfTPT2026.png'
+                },
+                {
+                    title: '«ТПТ»',
+                    author: 'Скосырева',
+                    school: 'ОГБПОУ «Томский политехнический техникум»',
+                    preview: 'images/infographic2026/infographicTPT2026.jpg',
+                    type: 'image',
+                    src: 'images/infographic2026/infographicTPT2026.jpg'
+                },
+                {
+                    title: '«АТпромИС»',
+                    author: 'Плотников МВ',
+                    school: 'ОГБПОУ «Асиновский техникум промышленной индустрии и сервиса»',
+                    preview: 'images/infographic2026/infographicATPROMIS2026.png',
+                    type: 'image',
+                    src: 'images/infographic2026/infographicATPROMIS2026.png'
+                },
+                {
+                    title: '«Как менялись названия ШТИТ»',
+                    author: 'Николаева',
+                    school: 'ОГБПОУ «Шегарский техникум индустриальных технологий»',
+                    preview: 'images/infographic2026/infographicSHTIT2026.jpg',
+                    type: 'image',
+                    src: 'images/infographic2026/infographicSHTIT2026.jpg'
+                },
+                {
+                    title: '«ШТИТ»',
+                    author: 'Петриченко',
+                    school: 'ОГБПОУ «Шегарский техникум индустриальных технологий»',
+                    preview: 'images/infographic2026/infographic2SHTIT2026.jpg',
+                    type: 'image',
+                    src: 'images/infographic2026/infographic2SHTIT2026.jpg'
+                },
             ]
         },
         excursion: {
             label: 'Видеоэкскурсия',
             description: 'Видеоэкскурсии по памятным местам Томска и Томской области за 2026 год',
             items: [
-                // {
-                //     title: '«Улица, где начиналась профессия»',
-                //     author: 'Фёдорова Ксения Дмитриевна',
-                //     school: 'ОГБПОУ «Томский техникум информационных технологий»',
-                //     preview: 'images/Materials/excursion-1.jpg',
-                //     type: 'video',
-                //     src: 'https://www.youtube.com/embed/XXXXXXXXXXX'
-                // }
+                {
+                    title: '«ТЭПК»',
+                    author: 'Никита Литвинов и Никита Белоусов',
+                    school: 'ОГБПОУ «Томский экономико-промышленный колледж»',
+                    preview: 'images/excursionPrew2026/excursTEPK2026.png',
+                    type: 'video',
+                    src: 'https://vk.ru/video_ext.php?oid=-173380626&id=456239404&hash=69c9f1fd6dd0e630'
+                },
+                {
+                    title: '«КИПТСУ»',
+                    author: 'Алькантры КИПТСУ',
+                    school: 'ОГБПОУ «Колледж индустрии питания, торговли и сферы услуг»',
+                    preview: 'images/excursionPrew2026/excursKIPTSU2026.png',
+                    type: 'video',
+                    src: 'https://vkvideo.ru/video_ext.php?oid=-222446361&id=456239053&hash=da9cd3c7851d9c8a&hd=3'
+                },
+                {
+                    title: '«ТГПК с Валерией»',
+                    author: 'Валерия',
+                    school: 'ОГБПОУ «Томский государственный педагогический колледж»',
+                    preview: 'images/excursionPrew2026/excursTGPK2026.png',
+                    type: 'video',
+                    src: 'https://vk.ru/video_ext.php?oid=-128831204&id=456239725&hash=4fc4d72e0e81d088'
+                },
             ]
         }
     };
-
     const NOMINATIONS_2025 = {
         video: {
             label: 'Видеоролик',
@@ -581,14 +685,22 @@ document.addEventListener('DOMContentLoaded', () => {
             label: 'Виртуальный музей',
             description: 'Виртуальные экспозиции, сохраняющие историю учебных заведений и их выпускников за 2025 год',
             items: [
-                // {
-                //     title: 'Виртуальная экскурсия «Гордость колледжа»',
-                //     author: 'Тихонов Никита Олегович',
-                //     school: 'ОГБПОУ «Томский строительный колледж»',
-                //     preview: 'images/Materials/museum-2.jpg',
-                //     type: 'link',
-                //     src: 'https://example.com/museum-2'
-                // }
+                {
+                    title: '«Музей ТМТТ»',
+                    author: 'Борщ Кирилл Константинович',
+                    school: 'ОГБПОУ «Томский механико-технологический техникум»',
+                    preview: 'images/museumPrev2025/muzeyPrewTMTT2025.png',
+                    type: 'link',
+                    src: 'https://poly.cam/capture/0DB4A483-4981-4F96-A7CA-322F530D11D0'
+                },
+                {
+                    title: '«МУЗЕЙНАЯ КОМНАТА ТПГК»',
+                    author: 'ТГПК',
+                    school: 'ОГБПОУ «Томский промышленно-гуманитарный колледж»',
+                    preview: 'images/museumPrev2025/muzeyPrewTGPK2025.png',
+                    type: 'link',
+                    src: 'https://vk.ru/wall-229089160_3'
+                }
             ]
         },
         infographic: {
@@ -652,7 +764,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     src: 'images/infographics/KIPTSUinfographic2025.png'
                 },
                 {
-                    title: '«История развития ТТИТ»',
+                    title: '«История развития ТБМК»',
                     author: 'Студенческий совет колпашевского филиала ОГБПОУ «Томский базовый медицинский колледж»',
                     school: 'Колпашевский филиал ОГБПОУ «Томский базовый медицинский колледж»',
                     preview: 'images/infographics/kfTBMKinfographic2025.png',
@@ -672,6 +784,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     preview: 'images/excursionPrew2025/excursSPK2025PREW.png',
                     type: 'video',
                     src: 'https://vkvideo.ru/video_ext.php?oid=-73151794&id=456239331&hash=a2ab7813b9122c79'
+                },
+                {
+                    title: '«Музейная комната»',
+                    author: 'Артём Разумов и Евгений Хаустов',
+                    school: 'ОГБПОУ «Томский промышленно-гуманитарный колледж»',
+                    preview: 'images/excursionPrew2025/excursTPGK2025PREW.png',
+                    type: 'video',
+                    src: 'https://vk.ru/video_ext.php?oid=-229089160&id=456239019'
                 }
             ]
         }
@@ -696,7 +816,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (labelEl) labelEl.textContent = data.label;
     if (descEl) descEl.textContent = data.description;
 
-    const CATEGORY_LABELS = { color: 'В цвете', graphic: 'В графике' };
+    const CATEGORY_LABELS = {color: 'В цвете', graphic: 'В графике'};
     const categories = [...new Set(data.items.map(w => w.category).filter(Boolean))];
     let activeCategory = 'all';
 
@@ -818,7 +938,7 @@ document.addEventListener('DOMContentLoaded', () => {
             link.href = work.src;
             link.target = '_blank';
             link.rel = 'noopener';
-            link.textContent = 'Перейти к виртуальной экскурсии';
+            link.textContent = 'Перейти в музей';
             link.className = 'work-card__btn';
             link.style.textDecoration = 'none';
             modalMedia.appendChild(link);
