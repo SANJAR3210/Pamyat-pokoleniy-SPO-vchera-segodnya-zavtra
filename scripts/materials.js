@@ -1,12 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    /* =========================================================
-       КОНКУРСНЫЕ РАБОТЫ
-       Чтобы добавить работу — допишите объект в список items
-       нужной номинации. Чтобы создать страницу другой номинации,
-       скопируйте calendar.html и поменяйте data-nomination
-       у <body> на один из ключей: video, calendar, poster,
-       museum, infographic, excursion.
-       ========================================================= */
     const NOMINATIONS_2026 = {
         video: {
             label: 'Видеоролик',
@@ -177,28 +169,194 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Авторские плакаты о великих свершениях и людях труда за 2026 год',
             items: [
                 {
-                    title: '«Труженики тыла»',
-                    author: 'Гусев Артём Викторович',
-                    school: 'ОГБПОУ «Томский транспортный колледж»',
-                    preview: 'images/Materials/poster-1.jpg',
+                    title: '«ТТИТ»',
+                    author: 'Стремякова Полина Викторовна, Захарушкина Татьяна Валерьевна, Подлипская Ксения Александровна',
+                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
+                    preview: 'images/posterImg2026/color/posterTTIT2026color.png',
                     type: 'image',
-                    src: 'images/Materials/poster-1-full.jpg'
+                    src: 'images/posterImg2026/color/posterTTIT2026color.png',
+                    category: 'color'
                 },
                 {
-                    title: '«Служили люди»',
-                    author: 'Волкова Ольга Сергеевна',
-                    school: 'ОГБПОУ «Томский медицинский колледж»',
-                    preview: 'images/Materials/poster-2.jpg',
+                    title: '«Знания СПО»',
+                    author: 'Архипова Карина Олегвона, Пушкарёва Алина Александровна, Яткина Анжелика Витальевна',
+                    school: 'ОГБПОУ «Колпашевский социально-промышленный колледж»',
+                    preview: 'images/posterImg2026/color/posterKSPK2026color.png',
                     type: 'image',
-                    src: 'images/Materials/poster-2-full.jpg'
+                    src: 'images/posterImg2026/color/posterKSPK2026color.png',
+                    category: 'color'
                 },
                 {
-                    title: '«Символы эпохи»',
-                    author: 'Романов Павел Денисович',
-                    school: 'ОГБПОУ «Томский промышленно-технологический колледж»',
-                    preview: 'images/Materials/poster-3.jpg',
+                    title: '«Томский финансово-юридический техникум»',
+                    author: 'Балдакова Ирина Евгеньевна',
+                    school: 'АНОПБ «Томский финансово-юридический техникум»',
+                    preview: 'images/posterImg2026/color/posterTOMFUT2026color.png',
                     type: 'image',
-                    src: 'images/Materials/poster-3-full.jpg'
+                    src: 'images/posterImg2026/color/posterTOMFUT2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«ТТЖТ - путь длинною в вековую магистраль»',
+                    author: 'Богданова Яна Витальевна',
+                    school: 'Филиал СГУПС «Томский техникум железнодорожного транспорта»',
+                    preview: 'images/posterImg2026/color/posterTTZHT2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/posterTTZHT2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«Асиновский техникум промышленной индустрии и сервиса»',
+                    author: 'Владимирова Ирина Вячеславовна',
+                    school: 'ОГБПОУ «Асиновский техникум промышленной индустрии и сервиса»',
+                    preview: 'images/posterImg2026/color/poster2ATPROMIS2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/poster2ATPROMIS2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«Вчера, сегодня, завтра»',
+                    author: 'Гулевич Екатерина Николаевна',
+                    school: 'ОГБПОУ «Томский государственный педагогический колледж»',
+                    preview: 'images/posterImg2026/color/posterTGPK2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/posterTGPK2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«ТБМК»',
+                    author: 'Добрускина Анна Денисовна',
+                    school: 'ОГБПОУ «Томский базовый медицинский колледж»',
+                    preview: 'images/posterImg2026/color/posterTBMK2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/posterTBMK2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«ШТИТ»',
+                    author: 'Ефимова Виктория Александровна',
+                    school: 'ОГБПОУ «Шегарский техникум индустриальных технологий»',
+                    preview: 'images/posterImg2026/color/posterSHTIT2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/posterSHTIT2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«Капитан грузового судна»',
+                    author: 'Зеленкова Алиса Михайловна',
+                    school: 'ОГБПОУ «Томский техникум водного транспорта и судоходства»',
+                    preview: 'images/posterImg2026/color/posterTTVTS2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/posterTTVTS2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«Настоящий капитан»',
+                    author: 'Кардонец Виктор Сергеевич',
+                    school: 'ОГБПОУ «Томский техникум водного транспорта и судоходства»',
+                    preview: 'images/posterImg2026/color/poster2TTVTS2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/poster2TTVTS2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«Будущее за настоящими професиионалами»',
+                    author: 'Кромских Даниил Вячеславович ',
+                    school: 'ОГБПОУ «Шегарский техникум индустриальных технологий»',
+                    preview: 'images/posterImg2026/color/poster2SHTIT2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/poster2SHTIT2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«ТПТ»',
+                    author: 'Куприянов Дмитрий Сергеевич, Курочкин Алексей Сергеевич',
+                    school: 'ОГБПОУ «Томский политехнический техникум»',
+                    preview: 'images/posterImg2026/color/poster2TPT2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/poster2TPT2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«ТКСТ»',
+                    author: 'Новицкая Таисия Евгеньевна',
+                    school: 'ОГБПОУ «Томский коммунально-строительный техникум»',
+                    preview: 'images/posterImg2026/color/poster2TKST2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/poster2TKST2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«История - Великий учитель»',
+                    author: 'Пятова Анна Ильинична',
+                    school: 'ОГБПОУ «Томский государственный педагогический колледж»',
+                    preview: 'images/posterImg2026/color/poster2TGPK2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/poster2TGPK2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«Наши профессии»',
+                    author: 'Сулейманова Алина Александровна',
+                    school: 'Александровский филиал ОГБПОУ «Томский политехнический техникум»',
+                    preview: 'images/posterImg2026/color/posterAfTPT2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/posterAfTPT2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«ТКСТ»',
+                    author: 'Сырбу Каролина Михайловна',
+                    school: 'ОГБПОУ «Томский коммунально-строительный техникум»',
+                    preview: 'images/posterImg2026/color/posterTKST2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/posterTKST2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«ТомИнТех»',
+                    author: 'Тарасюк Олеся Константиновна',
+                    school: 'ОГБПОУ «Томский индустриальный техникум»',
+                    preview: 'images/posterImg2026/color/posterTOMINTEH2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/posterTOMINTEH2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«АТпромИС»',
+                    author: 'Чемагина Анна Юрьевна',
+                    school: 'ОГБПОУ «Асиновский техникум промышленной индустрии и сервиса»',
+                    preview: 'images/posterImg2026/color/posterATPROMIS2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/posterATPROMIS2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«ТПТ»',
+                    author: 'Шерстобитова Дарина Максимовна',
+                    school: 'ОГБПОУ «Томский политехнический техникум»',
+                    preview: 'images/posterImg2026/color/posterTPT2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/posterTPT2026color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«КТАБ и друзья»',
+                    author: 'Шерстобоева Диана Антоновна',
+                    school: 'ОГБПОУ «Кожевниковский техникум агробизнеса»',
+                    preview: 'images/posterImg2026/color/posterKTAB2026color.png',
+                    type: 'image',
+                    src: 'images/posterImg2026/color/posterKTAB2026color.png',
+                    category: 'color'
+                }
+                ,
+                {
+                    title: '«ТТИТ»',
+                    author: 'Ахмедов Санджар Наимжонович',
+                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
+                    preview: 'images/posterImg2026/graphic/posterTTIT2026graphic.jpg',
+                    type: 'image',
+                    src: 'images/posterImg2026/graphic/posterTTIT2026graphic.jpg',
+                    category: 'graphic'
                 }
             ]
         },
@@ -220,14 +378,14 @@ document.addEventListener('DOMContentLoaded', () => {
             label: 'Инфографика',
             description: 'Инфографика о событиях, цифрах и фактах истории профессионального образования за 2026 год',
             items: [
-                // {
-                //     title: '«Путь от ремесла к профессии»',
-                //     author: 'Белова Дарья Андреевна',
-                //     school: 'ОГБПОУ «Томский экономический колледж»',
-                //     preview: 'images/Materials/infographic-1.jpg',
-                //     type: 'image',
-                //     src: 'images/Materials/infographic-1-full.jpg'
-                // },
+                {
+                    title: '«ТТИТ»',
+                    author: 'Ахмедов Санджар Наимжонович',
+                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
+                    preview: 'images/infographic2026/infographicTTIT2026.jpg',
+                    type: 'image',
+                    src: 'images/infographic2026/infographicTTIT2026.jpg'
+                },
             ]
         },
         excursion: {
@@ -350,7 +508,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     school: 'ОГБПОУ «Томский медицинский колледж»',
                     preview: 'images/Materials/poster-2.jpg',
                     type: 'image',
-                    src: 'images/Materials/poster-2-full.jpg'
+                    src: 'images/Materials/poster-2-full.jpg',
+                    category: 'color'
                 },
                 {
                     title: '«Символы эпохи»',
@@ -358,7 +517,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     school: 'ОГБПОУ «Томский промышленно-технологический колледж»',
                     preview: 'images/Materials/poster-3.jpg',
                     type: 'image',
-                    src: 'images/Materials/poster-3-full.jpg'
+                    src: 'images/Materials/poster-3-full.jpg',
+                    category: 'graphic'
                 }
             ]
         },
@@ -380,6 +540,14 @@ document.addEventListener('DOMContentLoaded', () => {
             label: 'Инфографика',
             description: 'Инфографика о событиях, цифрах и фактах истории профессионального образования за 2025 год',
             items: [
+                {
+                    title: '«История ТТИТ»',
+                    author: 'Ахмедов Санджар Наимжонович',
+                    school: 'ОГБПОУ «Томский техникум информационных технологий»',
+                    preview: 'images/infographics/TTIT1infographic2025.jpg',
+                    type: 'image',
+                    src: 'images/infographics/TTIT1infographic2025.jpg'
+                },
                 {
                     title: '«Александр Филиппович Мусохранов»',
                     author: 'Таскина М.В',
@@ -472,50 +640,95 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (labelEl) labelEl.textContent = data.label;
     if (descEl) descEl.textContent = data.description;
-    if (countEl) {
-        const n = data.items.length;
-        countEl.textContent = `Размещено работ: ${n}`;
-    }
 
-    /* --- Рендер карточек --- */
-    if (!data.items.length) {
-        const empty = document.createElement('p');
-        empty.className = 'works__empty';
-        empty.textContent = `Работы за ${year} год появятся позже.`;
-        gridEl.appendChild(empty);
-        return;
-    }
+    const CATEGORY_LABELS = { color: 'В цвете', graphic: 'В графике' };
+    const categories = [...new Set(data.items.map(w => w.category).filter(Boolean))];
+    let activeCategory = 'all';
 
-    data.items.forEach((work, i) => {
-        const card = document.createElement('article');
-        card.className = `work-card ${CARD_MODS[i % CARD_MODS.length]}`;
+    const worksContainer = gridEl.closest('.works__container') || gridEl.parentElement;
+    let tabsEl = null;
 
-        const img = document.createElement('img');
-        img.className = 'work-card__preview';
-        img.src = work.preview;
-        img.alt = work.title;
-        card.appendChild(img);
-
-        const body = document.createElement('div');
-        body.className = 'work-card__body';
-        body.innerHTML = `
-            <h3 class="work-card__title">${work.title}</h3>
-            <p class="work-card__author">${work.author}</p>
-            <p class="work-card__school">${work.school}</p>
-        `;
-
+    function makeTab(value, labelText) {
         const btn = document.createElement('button');
-        btn.className = 'work-card__btn';
         btn.type = 'button';
-        btn.textContent = work.type === 'video' ? 'Смотреть' : (work.type === 'link' ? 'Открыть' : 'Рассмотреть');
-        btn.addEventListener('click', () => openModal(work));
-        body.appendChild(btn);
+        btn.className = 'works__tab';
+        btn.textContent = labelText;
+        btn.dataset.category = value;
+        if (value === 'all') btn.classList.add('works__tab--active');
+        btn.addEventListener('click', () => {
+            activeCategory = value;
+            tabsEl.querySelectorAll('.works__tab').forEach(t =>
+                t.classList.toggle('works__tab--active', t === btn)
+            );
+            renderItems();
+        });
+        return btn;
+    }
 
-        card.appendChild(body);
-        gridEl.appendChild(card);
-    });
+    if (categories.length) {
+        tabsEl = document.createElement('div');
+        tabsEl.className = 'works__tabs';
+        tabsEl.appendChild(makeTab('all', 'Все работы'));
+        categories.forEach(c => tabsEl.appendChild(makeTab(c, CATEGORY_LABELS[c] || c)));
+        worksContainer.insertBefore(tabsEl, gridEl);
+    }
 
-    /* --- Модальное окно --- */
+    function renderItems() {
+        const list = activeCategory === 'all'
+            ? data.items
+            : data.items.filter(w => w.category === activeCategory);
+
+        if (countEl) {
+            const catLabel = activeCategory === 'all'
+                ? ''
+                : ` — ${CATEGORY_LABELS[activeCategory] || activeCategory}`;
+            countEl.textContent = `Размещено работ: ${list.length}${catLabel}`;
+        }
+
+        gridEl.innerHTML = '';
+
+        if (!list.length) {
+            const empty = document.createElement('p');
+            empty.className = 'works__empty';
+            empty.textContent = activeCategory === 'all'
+                ? `Работы за ${year} год появятся позже.`
+                : `Работы в подноминации «${CATEGORY_LABELS[activeCategory] || activeCategory}» появятся позже.`;
+            gridEl.appendChild(empty);
+            return;
+        }
+
+        list.forEach((work, i) => {
+            const card = document.createElement('article');
+            card.className = `work-card ${CARD_MODS[i % CARD_MODS.length]}`;
+
+            const img = document.createElement('img');
+            img.className = 'work-card__preview';
+            img.src = work.preview;
+            img.alt = work.title;
+            card.appendChild(img);
+
+            const body = document.createElement('div');
+            body.className = 'work-card__body';
+            body.innerHTML = `
+                <h3 class="work-card__title">${work.title}</h3>
+                <p class="work-card__author">${work.author}</p>
+                <p class="work-card__school">${work.school}</p>
+            `;
+
+            const btn = document.createElement('button');
+            btn.className = 'work-card__btn';
+            btn.type = 'button';
+            btn.textContent = work.type === 'video' ? 'Смотреть' : (work.type === 'link' ? 'Открыть' : 'Рассмотреть');
+            btn.addEventListener('click', () => openModal(work));
+            body.appendChild(btn);
+
+            card.appendChild(body);
+            gridEl.appendChild(card);
+        });
+    }
+
+    renderItems();
+
     const modal = document.getElementById('workModal');
     const overlay = document.getElementById('workModalOverlay');
     const closeBtn = document.getElementById('workModalClose');
@@ -564,7 +777,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function closeModal() {
         modal.classList.remove('work-modal--open');
         modal.setAttribute('aria-hidden', 'true');
-        modalMedia.innerHTML = ''; // останавливаем видео
+        modalMedia.innerHTML = '';
         document.body.style.overflow = '';
     }
 

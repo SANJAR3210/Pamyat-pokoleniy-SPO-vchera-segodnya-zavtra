@@ -218,8 +218,8 @@ h5, .h5 {
 }
 
 .hero__button:hover {
-    background-color: #2D7FFF;
-    color: #F8DE29;
+    background-color: #F8DE29;
+    color: var(--color-dark);
 }
 
 .hero__image {
@@ -427,7 +427,7 @@ h5, .h5 {
 }
 
 .services__card-image img {
-    max-width: 100%;
+    max-width: 90%;
     max-height: 200px;
     object-fit: contain;
 }
@@ -1079,6 +1079,13 @@ h5, .h5 {
         margin-top: 12%;
     }
 
+    .services__card-image img {
+        padding-top: 25%;
+        max-width: 90%;
+        height: 200px;
+        object-fit: contain;
+    }
+
     .team {
         margin-bottom: 0;
     }
@@ -1153,6 +1160,25 @@ h5, .h5 {
     .header__nav .header__btn {
         color: var(--color-white);
         border-color: var(--color-white);
+    }
+
+    .services__card-image img {
+        padding-top: 50%;
+        max-width: 90%;
+        max-height: 190px;
+        object-fit: contain;
+    }
+
+    .team__card-avatar img {
+        width: 80%;
+    }
+
+    .team__card {
+        padding: 25px 30px;
+    }
+
+    .team__card-avatar {
+        margin-right: 0;
     }
 }
 
@@ -1253,6 +1279,12 @@ h5, .h5 {
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
+    }
+
+    .services__card-image img {
+        padding-top: 0;
+        max-width: 90%;
+        object-fit: contain;
     }
 
     .team {
@@ -1403,6 +1435,22 @@ h5, .h5 {
 
 }
 
+@media (max-width: 700px){
+
+    .footer__nav{
+        margin-left: 20px;
+    }
+
+    .footer__menu {
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 10px;
+    }
+}
+
 
 @media (max-width: 407px) {
     h1, .h1 {
@@ -1529,9 +1577,9 @@ h5, .h5 {
     }
 
     .services__card-image img {
-        padding-top: 30%;
-        width: 130px;
-        height: 150px;
+        padding-top: 35%;
+        width: 90%;
+        max-height: 190px;
     }
 
     .services__card-title, .services__card-title + p {
