@@ -495,30 +495,85 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Авторские плакаты о великих свершениях и людях труда за 2025 год',
             items: [
                 {
-                    title: '«Труженики тыла»',
-                    author: 'Гусев Артём Викторович',
-                    school: 'ОГБПОУ «Томский транспортный колледж»',
-                    preview: 'images/Materials/poster-1.jpg',
+                    title: '«От поколения к поколению»',
+                    author: 'Бакилина Маргарита Романова',
+                    school: 'ОГБПОУ «Северский промышленный колледж»',
+                    preview: 'images/poster/graphic2025/posterSPK2025graphic.jpg',
                     type: 'image',
-                    src: 'images/Materials/poster-1-full.jpg'
+                    src: 'images/poster/graphic2025/posterSPK2025graphic.jpg',
+                    category: 'graphic'
                 },
                 {
-                    title: '«Служили люди»',
-                    author: 'Волкова Ольга Сергеевна',
-                    school: 'ОГБПОУ «Томский медицинский колледж»',
-                    preview: 'images/Materials/poster-2.jpg',
+                    title: '«СПО: Вчера Сегодня Завтра»',
+                    author: 'Бардакова Вакарчук',
+                    school: 'ОГБПОУ «Томский механико-технологический техникум»',
+                    preview: 'images/poster/graphic2025/posterTMTT2025graphic.jpg',
                     type: 'image',
-                    src: 'images/Materials/poster-2-full.jpg',
+                    src: 'images/poster/graphic2025/posterTMTT2025graphic.jpg',
+                    category: 'graphic'
+                },
+                {
+                    title: '«КИПТСУ»',
+                    author: 'Сергеева',
+                    school: 'ОГБПОУ «Колледж индустрии питания, торговли и сферы услуг»',
+                    preview: 'images/poster/graphic2025/posterKIPTSU2025graphic.jpg',
+                    type: 'image',
+                    src: 'images/poster/graphic2025/posterKIPTSU2025graphic.jpg',
+                    category: 'graphic'
+                },
+                {
+                    title: '«ТомИнТех»',
+                    author: 'Кадзукова Сафия Сухробовна',
+                    school: 'ОГБПОУ «Томский индустриальный техникум»',
+                    preview: 'images/poster/color2025/poster2TOMINTEH2025color.jpg',
+                    type: 'image',
+                    src: 'images/poster/color2025/poster2TOMINTEH2025color.jpg',
                     category: 'color'
                 },
                 {
-                    title: '«Символы эпохи»',
-                    author: 'Романов Павел Денисович',
-                    school: 'ОГБПОУ «Томский промышленно-технологический колледж»',
-                    preview: 'images/Materials/poster-3.jpg',
+                    title: '«Парабельский филиал ТПТ»',
+                    author: 'Карпов',
+                    school: 'Парабельский филиал ОГБПОУ «Томский политехнический техникум»',
+                    preview: 'images/poster/color2025/posterPfTPT2025color.jpg',
                     type: 'image',
-                    src: 'images/Materials/poster-3-full.jpg',
-                    category: 'graphic'
+                    src: 'images/poster/color2025/posterPfTPT2025color.jpg',
+                    category: 'color'
+                },
+                {
+                    title: '«Вход в ТомИнТех»',
+                    author: 'Купрессова Ульяна',
+                    school: 'ОГБПОУ «Томский индустриальный техникум» ',
+                    preview: 'images/poster/color2025/posterTOMINTEH2025color.jpg',
+                    type: 'image',
+                    src: 'images/poster/color2025/posterTOMINTEH2025color.jpg',
+                    category: 'color'
+                },
+                {
+                    title: '«СПО: Вчера Сегодня Завтра»',
+                    author: 'Терёхина Марина Викторовна',
+                    school: 'Колпашевский филиал ОГБПОУ «Томский базовый медицинский колледж»',
+                    preview: 'images/poster/color2025/posterKfTBMK2025color.png',
+                    type: 'image',
+                    src: 'images/poster/color2025/posterKfTBMK2025color.png',
+                    category: 'color'
+                },
+                {
+                    title: '«Традиции - наша опора, иновации - наш путь»',
+                    author: 'Семушина Эвелина Олеговна',
+                    school: 'ОГБПОУ «Томский базовый медицинский колледж»',
+                    preview: 'images/poster/color2025/posterTBMK2025color.jpg',
+                    type: 'image',
+                    src: 'images/poster/color2025/posterTBMK2025color.jpg',
+                    category: 'color'
+                },
+                {
+                    title: '«Труд»',
+                    author: 'Челнакова Алина',
+                    school: 'ОГБПОУ «Кожевниковский техникум агробизнеса»',
+                    preview: 'images/poster/color2025/posterKTAB2025color.png',
+                    type: 'image',
+                    src: 'images/poster/color2025/posterKTAB2025color.png',
+                    category: 'color'
                 }
             ]
         },
