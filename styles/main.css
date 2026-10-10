@@ -1394,7 +1394,6 @@ h5, .h5 {
     .team__card-avatar {
         width: 200px;
         height: auto;
-        margin-right: 30px;
         flex-shrink: 0;
         background-repeat: no-repeat;
         background-position: center;
@@ -1448,6 +1447,43 @@ h5, .h5 {
         padding: 0;
         display: flex;
         gap: 10px;
+    }
+}
+
+@media (max-width: 617px) {
+    .hero__image img {
+        top: 30rem;
+        width: 92%;
+    }
+}
+
+@media (max-width: 612px) {
+    .hero__image img {
+        top: 32rem;
+    }
+}
+
+@media (max-width: 532px) {
+    .hero__image img {
+        top: 34rem;
+    }
+}
+
+@media (max-width: 531px) {
+    .hero__image img {
+        top: 35rem;
+    }
+}
+
+@media (max-width: 513px) {
+    .hero__image img {
+        top: 37rem;
+    }
+}
+
+@media (max-width: 431px) {
+    .hero__image img {
+        top: 41rem;
     }
 }
 
